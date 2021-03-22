@@ -1,0 +1,48 @@
+let quotes = [
+['Never interrupt your enemy when he is making a mistake.'],
+['An army marches on its stomach.'],
+['History is a set of lies agreed upon.'],
+['A leader is a dealer in hope.'],
+['He who fears being conquered is sure of defeat.'],
+['Victory belongs to the most persevering.'],
+['What is history but a fable agreed upon?'],
+['Religion is what keeps the poor from murdering the rich.'],
+['In politics stupidity is not a handicap.'],
+['Imagination rules the world.'],
+["Caesar's wife must be above suspicion."],
+["Men willingly believe what they wish."],
+["Experience is the teacher of all things."],
+["I love treason but hate a traitor."],
+["If you must break the law, do it to seize power: in all other cases observe it."],
+["I had rather be first in a village than second at Rome."],
+["What we wish, we readily believe, and what we ourselves think, we imagine others think also."],
+['It is easier to find men who will volunteer to die, than to find those who are willing to endure pain with patience.'],
+["Which death is preferably to every other? ’The unexpected’."],
+["I have lived long enough both in years and in accomplishments."],
+["There is nothing impossible to him who will try."],
+["If I were not Alexander, I should wish to be Diogenes."],
+["A tomb now suffices him for whom the whole world was not sufficient."],
+["Remember upon the conduct of each depends the fate of all."],
+["Heaven cannot brook two suns, nor earth two masters."],
+["I am indebted to my father for living, but to my teacher for living well."],
+["How great are the dangers I face to win a good name in Athens."],
+["I had rather excel others in the knowledge of what is excellent, than in the extent of my power and dominion."],
+["I am dying from the treatment of too many physicians."],
+["I send you a kaffis of mustard seed, that you may taste and acknowledge the bitterness of my victory."],
+["Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present."],
+["You have power over your mind - not outside events. Realize this, and you will find strength."],
+["Waste no more time arguing about what a good man should be. Be one."],
+['Very little is needed to make a happy life; it is all within yourself, in your way of thinking.'],
+['The universe is change; our life is what our thoughts make it.'],
+['Death smiles at us all, but all a man can do is smile back.'],
+["It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinions than our own."],
+["The object of life is not to be on the side of the majority, but to escape finding oneself in the ranks of the insane."],
+["It is not death that a man should fear, but he should fear never beginning to live."],
+["The soul becomes dyed with the color of its thoughts."],
+];
+const main = ()=> {
+    let index = Math.floor(Math.random()*quotes.length);
+    console.log(quotes[index][0])
+};
+
+main()
