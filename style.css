@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+body {
+    background-color: #C0C0C0;
+}
+h1 {
+    font-family: Tangerine;
+    font-size: 4rem;
+}
+.jumbotron {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5),
+     0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+button {
+    background-color: #C0C0C0;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+
+}
