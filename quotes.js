@@ -42,7 +42,6 @@ let quotes = [
 ];
 const main = ()=> {
     let index = Math.floor(Math.random()*quotes.length);
-    console.log(quotes[index][0])
-};
-
-main()
+    let randomQuote = quotes[index][0]
+    document.getElementById("quote").innerHTML =randomQuote;
+}
