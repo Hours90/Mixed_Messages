@@ -45,3 +45,4 @@ const main = ()=> {
     let randomQuote = quotes[index][0]
     document.getElementById("quote").innerHTML =randomQuote;
 }
+main()
