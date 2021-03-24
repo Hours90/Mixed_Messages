@@ -48,4 +48,4 @@ const mixMessage = ()=>{
     const mixedMessage = `Good Morning ${noun}! ${content} Your ${signature} ;*`
     document.getElementById("quote").innerHTML = mixedMessage;
 };
-console.log(mixMessage())
+mixMessage()    
